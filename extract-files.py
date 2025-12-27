@@ -22,6 +22,7 @@ from extract_utils_oplus import (
 
 namespace_imports = [
     'hardware/oplus',
+    'hardware/pixelworks/interfaces',
     'hardware/qcom-caf/sm8650',
     'vendor/oneplus/sm8650-common',
     'vendor/qcom/opensource/commonsys-intf/display',
@@ -38,11 +39,6 @@ lib_fixups: lib_fixups_user_type = {
         'libPanelChaplin',
         'libpwirisfeature',
         'libpwirishalwrapper',
-        'vendor.pixelworks.hardware.display@1.0',
-        'vendor.pixelworks.hardware.display@1.1',
-        'vendor.pixelworks.hardware.display@1.2',
-        'vendor.pixelworks.hardware.feature@1.0',
-        'vendor.pixelworks.hardware.feature@1.1',
     ): lib_fixup_vendor_suffix,
 }
 

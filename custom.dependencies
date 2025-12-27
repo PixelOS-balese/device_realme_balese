@@ -4,6 +4,10 @@
     "target_path": "device/oneplus/sm8650-common"
   },
   {
+    "repository": "LineageOS/android_hardware_pixelworks_interfaces",
+    "target_path": "hardware/pixelworks/interfaces"
+  },
+  {
     "repository": "PixelOS-balese/vendor_realme_balese",
     "target_path": "vendor/realme/balese"
   }
