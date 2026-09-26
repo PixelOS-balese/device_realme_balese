@@ -974,7 +974,7 @@ vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
 
 # Media configs
-odm/etc/camera/media_profiles.xml
+odm/etc/camera/media_profiles.xml:vendor/etc/media_profiles_cliffs_v1.xml;TRYSRCFIRST
 odm/etc/media_cliffs_v1/video_system_specs.json
 
 # Neural networks
